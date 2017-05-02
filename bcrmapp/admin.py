@@ -1,6 +1,8 @@
 from django.contrib import admin
 
 # Register your models here.
-from bcrmapp.models import Restaurant
+from bcrmapp.models import Restaurant, Customer, Driver
 
 admin.site.register(Restaurant)
+admin.site.register(Customer)
+admin.site.register(Driver)
